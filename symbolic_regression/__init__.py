@@ -14,6 +14,10 @@ from symbolic_regression.expressions import (
     expression_from_dict,
 )
 from symbolic_regression.generator import TreeGenerator, TreeGeneratorConfig
+from symbolic_regression.operators import (
+    GeneticOperationError,
+    GeneticOperators,
+)
 from symbolic_regression.primitives import BINARY_PRIMITIVES, UNARY_PRIMITIVES
 from symbolic_regression.transforms import (
     canonicalize,
@@ -31,6 +35,8 @@ __all__ = [
     "Constant",
     "Expr",
     "ExpressionEvaluationError",
+    "GeneticOperationError",
+    "GeneticOperators",
     "Parameter",
     "ParameterNode",
     "Power",
