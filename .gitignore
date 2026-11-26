@@ -3,6 +3,7 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+
 # C extensions
 *.so
 
@@ -218,6 +219,10 @@ tempCodeRunnerFile.py
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+.DS_Store
+**/.DS_Store
+._.DS_Store
+**/._.DS_Store
 
 # Streamlit
 .streamlit/secrets.toml
